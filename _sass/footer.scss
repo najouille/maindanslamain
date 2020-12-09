@@ -6,9 +6,9 @@
 
 footer {
     background: #2074E0;
-    height: 30vh;
+    height: 35.7vh;
     width: 100%;
-    margin-top: 65.9vh;
+    margin-top: 59.4vh;
     color: #000000;
     font-family: 'Montserrat', sans-serif;
     white-space: nowrap;
@@ -16,11 +16,12 @@ footer {
 }
 
 footer a:link, footer a:active, footer a:visited {
- color: #ffffff;
+    color: #ffffff;
 }
 
 .footer-top-section {
-    height: 88.8%;
+    height: 84%;
+    padding: 40px 0px 0px 0px;
 }
 
 
@@ -29,7 +30,7 @@ footer a:link, footer a:active, footer a:visited {
 
 .footer-bottom-section {
     background: #000000;
-    height: 25%;
+    height: 29.8%;
     padding: 1% 5%;
     z-index: 1;
     position: relative;
@@ -44,38 +45,86 @@ footer a:link, footer a:active, footer a:visited {
     text-decoration: none;
 }
 
+.credit-margin {
+    margin-left: 40px;
+}
+
+.footer-bottom-section .otherslink:hover {
+    color: rgb(224, 102, 21);
+    transition-duration: 0.3s;
+}
+
+.footer-bottom-section .otherslink::after {
+    content: '';
+    display: block;
+    visibility: hidden;
+    width: 100%;
+    height: 2px;
+    transform: scaleX(0);
+    background: #e06615;
+}
+
+.footer-bottom-section .otherslink:hover:after {
+    visibility: visible;
+    transform: scaleX(1);
+    transition: 0.2s ease;
+}
+
+.footer-bottom-section .otherslink:hover {
+    transition: 0.3s;
+}
+
+.footer-bottom-section .credit-margin:hover {
+    color: rgb(224, 102, 21);
+    transition-duration: 0.3s;
+}
+
+.footer-bottom-section .credit-margin::after {
+    content: '';
+    display: block;
+    visibility: hidden;
+    width: 100%;
+    height: 2px;
+    transform: scaleX(0);
+    background: #e06615;
+}
+
+.footer-bottom-section .credit-margin:hover:after {
+    visibility: visible;
+    transform: scaleX(1);
+    transition: 0.2s ease;
+}
+
+.footer-bottom-section .credit-margin:hover {
+    transition: 0.3s;
+}
 
 /*== Social media ==*/
 
-
-.social-network {
-    display: flex;
-    height: 50%;
-}
 
 .social-network-icon {
     background: #f2f4f3;
     display: flex;
     align-items: center;
     border-radius: 40px;
-    align-content: space-around;
+    justify-content: space-around;
     margin: auto;
+    height: 25%;
+    max-width: 600px;
 }
 
 .social-network-icon a {                     /*icones espacement avec fond*/
-    display: flex;
-    align-items: center;
     margin: 20px 50px;
 }
 
-.social-network img {                            /*filtre noir*/
+.social-network-icon img {                            /*filtre noir*/
     filter: grayscale(1) brightness(0);
     max-width: 30px;
     height: auto;
     transition: 0.2s;
 }
 
-.social-network img:hover {
+.social-network-icon img:hover {
     filter: grayscale(0) brightness(1);
 }
 
@@ -86,40 +135,74 @@ footer a:link, footer a:active, footer a:visited {
 .navbar {
     font-size: 1.33em;
     font-weight: 500;
-    max-width: 50%;
     display: flex;
-    justify-content: space-between;
-    padding: 1.8% 5%
+    justify-content: space-around;
+    flex: 50%;
+    border: #ffffff;
+    border-style: solid;    
+    border-width: 0px 1px 0px 0px;
+    height: 100px;
+    align-items: center;
 }
 
-.navbar a {
+.navbar .navbarlink {
+    color: white;
     text-decoration: none;
+    margin: 20px 25px;
 }
 
+.navbar .navbarlink::after {
+    content: '';
+    display: block;
+    visibility: hidden;
+    width: 100%;
+    height: 2px;
+    transform: scaleX(0);
+    background: #e06615;
+}
 
-/*.navbar:hover {
+.navbar .navbarlink:hover:after {
+    visibility: visible;
+    transform: scaleX(1);
+    transition: 0.2s ease;
+}
+
+.navbar .navbarlink:hover {
+    transition: 0.3s;
+}
+
+.navbarlink:hover {
     color: rgb(224, 102, 21);
     transition-duration: 0.3s;
 }
-*/
 
-.vl {
-    border-left: 2px solid #fff;
-    height: 100px;
-    position: absolute;
-    left: 50%;
-    top: 44%;  
-    border-radius: 30px;
-  }
 
 /*============== BUTTON ==============*/
 
 
-.submit-button {
-    left: 50%;
+.footer-rightmiddle-section {
+    max-width: 50%;
 }
 
-.submit-button, .submit-button:visited, .submit-button:link {
+.footer-middle-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    padding: 40px 0px;
+    margin: auto;
+}
+.submit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 50%;
+    border-left: #ffffff;
+    border-style: solid;    
+    border-width: 0px 0px 0px 1px;
+}
+
+.submit-button a, .submit-button a:visited, .submit-button a:link {
     background-color: #e06615;
     width: 350px;
     height: 100px;  
@@ -137,9 +220,14 @@ footer a:link, footer a:active, footer a:visited {
     text-decoration: none;
 }
   
-.submit-button:hover {
+.submit-button a:hover {
     background-color: #000000;
 }
+
+
+
+
+/*============== MOBILE VERSION ================*/
 
 
 
