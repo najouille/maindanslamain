@@ -10,22 +10,21 @@
   <body>
     {% include commons/bienvenue/bienvenue.html %}
     {% include carrouseljs.html %}
-    {% include backgroundjs.html %}
+    {% include background.html %}
 
     {% include tipsNoel/tipscomplet.html %}
     {% include commons/partenaire/partenaire.html %}
     {% include commons/footer.html %}
 
-    <script type="module">
-      import {tns} from './src/tiny-slider.js';
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+  
+    <script>    
       var slider = tns({
-        container: "#rewind",
-        items: 3,
-        rewind: true,
-        swipeAngle: false,
-        speed: 400,
+        container: ".my-slider",
+        items: 1,
+        nextButton: '.next-button',
+        controls: false
       });
-      </script>
+    </script>
   </body>
 </html>
