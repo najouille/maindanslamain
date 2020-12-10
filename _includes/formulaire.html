@@ -1,12 +1,26 @@
-<form>
-    <input type="texte" maxlength="10" placeholder="Prénom"/> <br> <br>
-    <input type="texte" maxlength="10" placeholder="Nom"/> <br> <br>
-    <input type="texte" maxlength="10" placeholder="Adresse Mail"/> <br> <br>
-    <input type="texte" maxlength="10" placeholder="Code Postal"/> <br> <br>
-    <input type="texte" maxlength="10" placeholder="Ville"/> <br> <br>
-    <textarea name="message" id="message" rows="10" cols="60" placeholder="Comment souhaitez-vous aidez ?"></textarea> <br>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script> <br>
-    <div class="g-recaptcha" data-sitekey="la_clé_du_site"></div> <br>
+
+<form class="formulaire">
+
+    <div class="taille-formulaire-prenom" >
+        <input type="texte" maxlength="10" placeholder="Prénom"/> 
+    </div>
+    <div class="taille-formulaire-nom">
+        <input  type="texte" maxlength="10" placeholder="Nom"/> 
+    </div>
+    <div class="taille-formulaire-mail">
+        <input type="texte" maxlength="10" placeholder="Adresse Mail"/> 
+    </div>
+    <div class="taille-formulaire-code">
+        <input  type="texte" maxlength="10" placeholder="Code Postal"/> 
+    </div>
+    <div class="taille-formulaire-ville">
+        <input type="texte" maxlength="10" placeholder="Ville"/> 
+    </div>
+
+    <textarea name="message" id="message" rows="10" cols="60" placeholder="Comment souhaitez-vous aidez ?"></textarea> 
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script> 
+    <div class="g-recaptcha" data-sitekey="la_clé_du_site"></div> 
     <input type="submit" value="Annuler" id="button">    <input type="submit" value="Valider" id="button">
 </form>
+
     

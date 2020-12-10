@@ -6,19 +6,23 @@
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
   </head>
   <body>
+    {% include commons/header.html %}
 
-    <div class="shapes-background">
-      
+    <div class="shapes-background">  
       {% include commons/bienvenue/bienvenue.html %}
+      {% include agissez.html %}
       {% include carrouseljs.html %}
     </div>
     <div class="shapes-tipsnoel">
     {% include tipsNoel/tipscomplet.html %}
     </div>
-    {% include commons/header.html %}
+    
     {% include commons/partenaire/partenaire.html %}
+    {% include formulaire.html %}
+
     {% include commons/Footer/footer.html %}
     
 
@@ -28,9 +32,14 @@
       var slider = tns({
         container: ".my-slider",
         items: 1,
-        nextButton: '.next-button',
+        nextButton: 'suivant',
+        controlsPosition: 'bottom',
+        navPosition: 'bottom',
+        controlsText: ['<i class="fas fa-arrow-left"></i>', '<i class="fas fa-arrow-right"></i>'],
+        
         
       });
     </script>
+    <script src="assets/js/menu.js"></script>
   </body>
 </html>
