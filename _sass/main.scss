@@ -1,9 +1,16 @@
-$backgroundColor: blue;
+$backgroundColor: #fff;
 $bodyColor: #000000;
-$bodyFont: -apple-system;
+
 body {
     background: $backgroundColor;
     color: $bodyColor;
-    font-family: $bodyFont;
     
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+p{
+    margin: 0;
 }

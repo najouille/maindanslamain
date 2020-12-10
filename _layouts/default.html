@@ -5,9 +5,29 @@
     <meta charset="utf-8">
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
   </head>
   <body>
+
+    <div class="shapes-background">
+      {% include commons/bienvenue/bienvenue.html %}
+      {% include carrouseljs.html %}
+    </div>
+
+    {% include tipsNoel/tipscomplet.html %}
+    {% include commons/partenaire/partenaire.html %}
     {% include commons/footer.html %}
     {% include commons/header.html %}
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+  
+    <script>    
+      var slider = tns({
+        container: ".my-slider",
+        items: 1,
+        nextButton: '.next-button',
+        controls: false
+      });
+    </script>
   </body>
 </html>

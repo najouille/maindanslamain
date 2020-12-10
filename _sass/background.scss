@@ -1,0 +1,11 @@
+@media (min-width: 400px) {
+    .shapes-background {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0% -2% 0% -2%;
+        background-color: #f4f2f3;
+        background: url(../images/svg/Wave1.svg) 0% 0px no-repeat, url(../images/svg/Wave2.svg) right 270px no-repeat, url(../images/svg/Wave3.svg) left 900px no-repeat;
+        height: 100em;
+    }
+}

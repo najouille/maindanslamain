@@ -1,4 +1,16 @@
-@media all and (max-width:800px) {
+@media all and (min-width:400px) {
+
+    .homepage{
+
+        padding: 28px 0;
+
+
+    }
+
+    .text-bienvenue{
+        display: flex;
+        flex-direction: column;
+    }
 
     h1{
         font-family: 'Montserrat', sans-serif, bold;
@@ -39,11 +51,18 @@
         font-size: 1.5em;
         color: black;
     }
-        .container-image {
+        .container-imagehome {
         display: flex;
         justify-content: center;
         align-items: center;
         margin: auto;
+    }
+    
+    .container-imageicone {
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
         .image {
@@ -53,10 +72,81 @@
 
     }
 
-    .flecheicone {
-        width: 15%;
-        height: 15%;
+       .flecheicone {
+        padding: 42%;
+        width: 20%;
+        height: auto;
         padding-top: 8%;
+        filter: grayscale(0) brightness(1);
+        transition: 0.3s;
     }
     
+        .flecheicone:hover {
+        filter: grayscale(1) brightness(0);
+    }
+
 }
+
+    @media all and (min-width:1200px){
+
+        .text-bienvenue{
+            flex-direction: row;
+            justify-content: space-around;
+            width: 48%;
+            margin: auto;
+            align-items: center;
+        }
+
+        h1{
+            font-size: 3em;
+        }
+        
+        h2{
+            font-size: 3em;
+        }
+        
+        .p1{
+            padding-top: 2%;
+            padding-left: 6%;
+            padding-right: 6%;
+            font-size: 2em;
+            justify-content: space-around;
+            width: 48%;
+            margin: auto;
+            align-items: center;
+        }
+        
+        .p2{
+  
+            margin: 5%;
+            padding-left: 6%;
+            padding-right: 6%;
+            padding-top: 0%;
+            margin: 0%;
+            font-size: 2em;
+            justify-content: space-around;
+            width: 48%;
+            margin: auto;
+            align-items: center;
+        }
+        
+            .image {
+            width: 55%;
+            padding-bottom: 2%;
+    
+        }
+        
+        .container-imageicone {
+            width: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .flecheicone {
+            padding: 48%;
+            width: 5%;
+            height: 5%;
+            padding-top: 3%;
+           }    
+
+    }
