@@ -66,8 +66,9 @@
         width: 90%;
         height: 100%;
     }
+    
     .tips{
-        background-color: #18447D;
+        background-color: rgba(24, 68, 125, 0);
     }
     .tipsintrotext{
         display: flex;
@@ -96,7 +97,7 @@
             width: 80%;
         }
     }
-}
+
 
 @media (min-width:1200px) {
     .wrapper{
@@ -146,4 +147,5 @@
         }
        
     }
+}
 }
