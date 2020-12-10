@@ -1,0 +1,36 @@
+
+@media (min-width:400px){
+
+
+.partenaire {
+            font-family: 'Montserrat';
+            color: black;
+            margin-top: 20vh;
+            justify-content: center;
+
+            
+    .picto_asso{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 6vh;
+            img{
+                width: 70%;
+            }
+            
+            .picto_haut{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                
+            }
+            
+            .picto_bas{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+    } 
+    
+
+}
+}
