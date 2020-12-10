@@ -1,0 +1,57 @@
+/* Evenements du mois */
+
+.events-icon {
+    flex: 1;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.arrowleft {
+    color: #9652b3;
+    position: absolute;
+    cursor: pointer;
+    left: -3%;
+    top: 30%;
+    font-size: 3em;
+}
+
+.arrowright {
+    color: #9652b3;
+    position: absolute;
+    cursor: pointer;
+    right: -3%;
+    top: 30%;
+    font-size: 3em;
+}
+
+#carousel {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.container-event {
+    max-width: 350px;
+    max-height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 30px;
+}
+
+.container-event-image {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    width: 60%;
+    margin-bottom: 0.4em;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.container-event-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
