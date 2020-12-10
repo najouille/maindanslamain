@@ -1,10 +1,11 @@
 
 
+
 footer {
     background: #2074E0;
     height: 35.7vh;
     width: 100%;
-    
+    margin-top: 30px;
     color: #000000;
     font-family: 'Montserrat', sans-serif;
     white-space: nowrap;
@@ -252,14 +253,10 @@ footer a:link, footer a:active, footer a:visited {
     }
 
     footer {
-        height: 52vh;
+        height: 60vh;
         margin-top: 30px;
     }
-    
-    .footer-bottom-section {
-        height: 20%;
-    }    
-    
+  
     .social-network-icon img {                        
         height: 50px;
     }
@@ -269,7 +266,7 @@ footer a:link, footer a:active, footer a:visited {
     }
 
     .footer-bottom-section {
-        padding: 1% 24%;
+        padding: 1% 24% 0 17%;
         font-weight: 400;
     }
 
@@ -277,5 +274,77 @@ footer a:link, footer a:active, footer a:visited {
         margin-left: 0px;
     }
 
-}
 
+    @media screen and (max-width: 500px) {
+        
+        .footer-middle-section {
+            flex-direction: column;
+            height: 100px;  
+            padding: 20px 0 0;
+        }
+        
+        .navbar {
+            border-width: 2px 0px 0px 0px;
+            font-size: 1em;
+            justify-content: space-between;
+            margin-right: 50px;
+            margin-left: 50px;
+            max-width: 350px;
+        }
+        
+        .submit-button {
+            border-width: 0px 0px 0px 0px;
+            
+        }
+        
+        .submit-button a, .submit-button a:visited, .submit-button a:link {
+            border-radius: 50px;
+        }
+    
+        .social-network-icon {
+            max-width: 350px;
+        }
+    
+        footer {
+            height: 46.5vh;
+            margin-top: 30px;
+        }
+        
+        .footer-bottom-section {
+            height: 20%;
+            justify-content: space-evenly;
+        }    
+
+        .otherslink {
+            padding: 10px;
+        }
+
+        .credit-margin {
+            padding: 10px;
+        }
+        
+        .social-network-icon img {                        
+            height: 25px;
+        }
+    
+        .social-network-icon a {                     
+            margin: 20px 30px 20px 30px;
+        }
+    
+        .footer-bottom-section {
+            padding: 1% 24%;
+            font-weight: 400;
+        }
+    
+        .credit-margin {
+            margin-left: 0px;
+        }    
+
+        .navbar .navbarlink {
+            margin: 20px 15px;
+}
+        }
+        .footer-top-section {
+            padding: 20px 0px 0px 0px;
+        }
+    }
