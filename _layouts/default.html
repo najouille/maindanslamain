@@ -5,13 +5,27 @@
     <meta charset="utf-8">
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
   </head>
   <body>
     {% include commons/bienvenue/bienvenue.html %}
-    {% include background.html %}
-    {% include carrousel.html %}
+    {% include carrouseljs.html %}
+    {% include backgroundjs.html %}
+
     {% include tipsNoel/tipscomplet.html %}
     {% include commons/partenaire/partenaire.html %}
     {% include commons/footer.html %}
+
+    <script type="module">
+      import {tns} from './src/tiny-slider.js';
+    
+      var slider = tns({
+        container: "#rewind",
+        items: 3,
+        rewind: true,
+        swipeAngle: false,
+        speed: 400,
+      });
+      </script>
   </body>
 </html>
