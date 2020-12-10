@@ -276,6 +276,22 @@ footer a:link, footer a:active, footer a:visited {
         margin-left: 0px;
     }
 
+    .contacter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        P{
+            margin: 0;
+        }
+        h2{
+            margin: 0;
+            margin-bottom: 20px;
+            margin-top: 10px;
+        }
+    }
+
 
     @media screen and (max-width: 500px) {
         

@@ -3,10 +3,13 @@
     .carrousel-content{
         background-color: #D1E5FF;
         margin: auto;
-        height: auto;
+        height: 550px;
         display: flex;
         align-items: center;
         position: relative;
+        border-radius: 30px;
+        
+        
 
         .icone-asso{
             display: flex;
@@ -60,7 +63,7 @@
         display: flex;
         justify-content: space-around;
         button{
-            background-image: url(.../icones/flechebas.png);
+            background-color:#E06615;
             border: none;
             border-radius: 15px;
             padding: 10px;
@@ -75,6 +78,9 @@
         margin: auto;
         margin-bottom: 30px;
         width: 80%;
+        border-radius: 30px;
+        box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+        
     }
 
     .tns-ovh{
