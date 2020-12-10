@@ -10,6 +10,8 @@ footer {
     font-family: 'Montserrat', sans-serif;
     white-space: nowrap;
     position: relative;
+
+   
 }
 
 footer a:link, footer a:active, footer a:visited {
@@ -308,6 +310,10 @@ footer a:link, footer a:active, footer a:visited {
         footer {
             height: 46.5vh;
             margin-top: 30px;
+
+            h2 .footer{
+                color: #ffffff;
+            }
         }
         
         .footer-bottom-section {
