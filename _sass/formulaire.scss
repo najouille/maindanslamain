@@ -1,0 +1,21 @@
+.formulaire{
+    background-color: #D1E5FF;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+    input{
+        margin: 20px;
+        border-radius: 30px;
+        padding: 10px;
+        border: 1px solid #2074E0;
+    }
+
+    .taille-formulaire-mail{
+        width: 80%;    
+    }
+
+    .taille-formulaire-ville{
+        width: 40%;
+    }
+}

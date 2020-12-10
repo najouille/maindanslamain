@@ -1,5 +1,6 @@
 .menu {
   background: #020304;
+  
 }
 
 .menu input + label {
@@ -15,8 +16,7 @@
   position: absolute;
   width: 100%;
   height: 10%;
-  top: 50%;
-  margin-top: -1px;
+  top: 32px;  
   left: 0;
   display: block;
   background: #ffffff;
@@ -38,7 +38,7 @@
 
 .menu input:checked + label span {
   opacity: 0;
-  top: 50%;
+  top: 32px;
 }
 
 .menu input:checked + label span:first-child {
@@ -75,18 +75,23 @@
 .menu input ~ nav > .menunavbar {
   opacity: 0;
   transition: 0.5s;
-  transition-delay: 0s;
+  
   list-style-type: none;
 }
 
 .menu input:checked ~ nav {
   height: 100%;
-  transition-delay: 0s;
+ 
 }
 
 .menu input:checked ~ nav > .menunavbar {
   opacity: 1;
   transition-delay: 0.5s;
+}
+
+.menu input:checked ~ nav > .imglogo2 {
+  opacity: 0;
+  transition-delay: 0.1s;
 }
 
 .burger{
@@ -109,7 +114,7 @@ padding-left: 45%;
 position: absolute;
 width: 50px;
 height: auto;
-top: 20px;
+top: 30px;
 left: 47%;
 z-index: 9;
 margin-left: -15px;
@@ -146,13 +151,18 @@ padding: 10%;
 /*------------------ code naja ----------------*/
 
 .menunavbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 50%;
+  
 }
 
 .menunavbarlink {
   text-decoration: none;
   color: #fff;
   display: table;
+  padding: 20px;
 }
 
 .menunavbarlink::after {

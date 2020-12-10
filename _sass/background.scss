@@ -9,15 +9,15 @@
         height: 100em;
     }
 
-.shapes-tipsnoel {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 0% -2% 0% -2%;
-    background: url(../images/svg/shape5.svg) 0% 0px no-repeat, 
-                url(../images/svg/shape4.svg) 100% 700px no-repeat,
-                url(../images/svg/fil1.svg) 0% 0px no-repeat;
-    background-color: #18447D ;
-    height: 140em;
-}
+    .shapes-tipsnoel {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0% -2% 0% -2%;
+        background: url(../images/svg/shape5.svg) 0% 0px no-repeat, 
+                    url(../images/svg/shape4.svg) 100% 700px no-repeat,
+                    url(../images/svg/fil1.svg) 0% 0px no-repeat;
+        background-color: #18447D ;
+        height: 140em;
+    }
 }
