@@ -1,474 +1,149 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600&display=swap');
 
-/*src7*/
-
-body {
-    margin: 0;
-    right: 0;
-    left: 0;
-    width: auto;
-    background-color: rgb(211, 247, 255);
-}
-
-main {
-    margin: 0;
-    left: 0;
-    padding: 0;
-}
-
-header {
-    margin: 0;
-    left: 0;
-}
-
-footer {}
-
-
-/*header*/
-
-i {
-    color: rgb(185, 250, 255);
-}
-
-i.fab.fa-youtube {
-    color: black;
-}
-
-p.headertext {
-    margin: 0;
-    color: rgb(185, 250, 255);
-    font-size: 1.2em;
-    text-align: center;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 300;
-}
-
-.menu {
-    display: flex;
-    justify-content: space-around;
-    background-color: rgba(0, 0, 0, 0.8);
-    width: 100%;
-    height: auto;
-    left: 0;
-    text-align: right;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 300;
-}
-
-.menu a {
-    text-decoration: none;
-    color: rgb(185, 250, 255);
-    margin: 5px 5px 0px 5px;
-    font-size: 1.2em;
-}
-
-.titre {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-
-/*Text*/
-
-h1 {
-    text-align: center;
-    color: white;
-    font-size: 2.5em;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 500;
-    margin: 20px 0px 20px 0px;
-}
-
-h2 {
-    text-align: center;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 400;
-    font-size: 1.5em;
-}
-
-h2.index {
-    margin-top: 9px;
-    margin-bottom: 30px;
-}
-
-p {
-    text-align: center;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 300;
-    font-size: 1em;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-.textexplicatif {
-    display: flex;
-    justify-content: center;
-    width: auto;
-    margin: 25px 15px 40px 15px;
-}
-
-.textexplicatif p {
-    text-align: center;
-    width: 60%;
-}
-
-
-/*Index*/
-
-.wrapper {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: auto;
-    margin-top: 100px;
-    width: 80%;
-}
-
-.container1 {
-    width: 45%;
-    height: auto;
-}
-
-.image {
-    object-fit: contain;
-    margin: 0;
-    width: 100%;
-    height: 100%;
-}
-
-
-/* Index Hover : Effet sur image*/
-
-.element {
-    position: relative;
-    width: 100%;
-    height: auto;
-    margin: auto;
-    height: auto;
-}
-
-.overlay {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.5s;
-    background-color: rgba(0, 0, 0, 0.6);
-    width: 100%;
-    height: 100%;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    overflow: hidden;
-    opacity: 0;
-}
-
-.text {
-    position: absolute;
-    color: white;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 1.5em;
-    text-align: center;
-    opacity: 0;
-}
-
-.element:hover .overlay {
-    opacity: 1;
-}
-
-.element:hover .text {
-    opacity: 1;
-}
-
-
-/*Site Cinéma et Voyage*/
-
-.partie {
-    display: flex;
-    flex-wrap: wrap;
-    width: auto;
-    justify-content: space-around;
-}
-
-.siteweb {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 80px;
-    margin-bottom: 20px;
-    justify-content: space-around;
-}
-
-.image11 {
-    margin-top: 10px;
-    width: 30%;
-    height: 100%;
-}
-
-
-/*Cover d'album*/
-
-.imagecover {
-    width: 30%;
-    height: auto;
-    margin-top: 15px;
-    padding: 0;
-    object-fit: contain;
-}
-
-.containercover {
-    display: flex;
-    flex-wrap: wrap;
-    width: auto;
-    justify-content: space-around;
-    margin: 100px 30px 10px 30px;
-}
-
-
-/*A propos*/
-
-.presentation {
-    display: flex;
-    justify-content: space-around;
-    width: auto;
-    height: auto;
-    margin: 100px 70px 0 70px;
-}
-
-.presentationtext {
-    width: 50%;
-    margin-top: 50px;
-}
-
-.presentationimage {
-    width: 30%;
-    height: auto;
-    object-fit: contain;
-    margin: 10px 50px 10px 50px;
-}
-
-.presentation p {
-    text-align: left;
-    font-size: 1.2em;
-}
-
-
-/*Vidéos*/
-
-.videocinema {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 30%;
-    height: 70%;
-    margin: auto;
-    margin-bottom: 20px;
-}
-
-.fullscreen-video {
-    width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0;
-    object-fit: contain;
-}
-
-.videocinema1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    height: 70%;
-    margin: auto;
-    margin-bottom: 20px;
-}
-
-.fullscreen-video1 {
-    width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0;
-    object-fit: contain;
-}
-
-
-/*footer*/
-
-.lien {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 10px;
-    width: auto;
-}
-
-.lien a {
-    font-size: 1.3em;
-    color: rgb(185, 250, 255);
-    margin: 10px;
-}
-
-.colonne {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.CV {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.btn {
-    background: none;
-    border: 1px solid black;
-    width: 30%;
-    margin: 10px;
-}
-
-.title {
-    text-align: left;
-}
-
-.icon {
-    width: 4%
-}
-
-
-/*Version tablette */
-
-@media all and (max-width:1250px) {
-    h1 {
-        font-size: 2em;
-    }
-    h2 {
-        font-size: 1.2em;
-    }
-    .text {
-        font-size: 1em;
-    }
-    .textexplicatif p {
-        width: 70%;
-    }
-    .presentation {
-        flex-direction: column-reverse;
+@media (min-width:400px) {
+    .wrapper{
+        display: flex;
         justify-content: center;
         align-items: center;
-        margin: 60px 10px 0 10px;
+        flex-direction: column;
+            
+    
     }
-    .presentationtext {
-        width: 90%;
-        margin-top: 50px;
-    }
-    .presentationimage {
-        width: 45%;
-        height: auto;
-        object-fit: contain;
+
+    .container-imagenoel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 75%;
+        height: 320px;
         margin: 10px;
+        position: relative;
+        
     }
-    .presentation p {
-        font-size: 1em;
+    .imagenoel {
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        object-fit: cover;
+        
     }
-    .wrapper {
-        margin: auto;
-        margin-top: 80px;
-        width: 90%;
-    }
-    .videocinema {
+
+    .imagenoel-titre{
         width: 60%;
-        height: 70%;
-    }
-    .partie {
-        flex-direction: column;
-    }
-}
-
-
-/*Version téléphone */
-
-@media all and (max-width:800px) {
-    .wrapper {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 90%;
-    }
-    .container1 {
-        width: 100%;
-        height: auto;
-    }
-    h1 {
-        font-size: 1.3em;
-    }
-    h2 {
-        font-size: 1em;
-    }
-    p {
-        font-size: 0.8em;
-    }
-    .textexplicatif p {
-        width: 100%;
-    }
-    .siteweb {
-        flex-direction: column;
         margin: auto;
-        margin-bottom: 20px;
+        img{
+            width: 100%;
+        }
+    }
+    .tipstext {
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: #fff;
+        padding: 15px;
+        border-radius: 15px;
+        text-align: center;
+        width: 75%;
+        height: auto;
+        p{
+            padding: 10px;
+        }
+    }
+    .tipsnumero {
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 5px;
+        margin: 10px;
+        border-radius: 15px;
+        top: 0;
+        align-self: flex-end;
+        position: absolute;
+    }
+    .overlay {
+        position: absolute;
+        display: flex;
         justify-content: center;
         align-items: center;
-    }
-    .image11 {
+        flex-direction: column;
         width: 90%;
         height: 100%;
     }
-    .containercover {
-        flex-direction: column;
+    .tips{
+        background-color: #18447D;
+    }
+    .tipsintrotext{
+        display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        margin: 60px 20px 10px 20px;
+        margin: auto;
+        width: 85%;
+        color: #fff;
+        .texthaut{
+            text-align: left;
+            align-self: flex-start;
+            margin: 10px;
+            width: 80%;
+        }
+        .textmilieu {
+            text-align: right;
+            align-self: flex-end;
+            margin: 10px;
+            width: 80%;
+        }
+        .textbas {
+            text-align: right;
+            align-self: flex-end;
+            margin: 10px;
+            width: 80%;
+        }
     }
-    .imagecover {
-        width: 80%;
+}
+
+@media (min-width:1200px) {
+    .wrapper{
+        flex-direction: row;
+        flex-wrap: wrap;;
+        
     }
-    .presentationimage {
-        width: 70%;
-        height: auto;
-        object-fit: contain;
-        margin: 10px;
+    .container-imagenoel {
+        
+        width: 35%;
+        height: 500px;
+        margin: 40px;
+       
     }
-    .presentationtext {
-        width: 90%;
+    .imagenoel {
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        object-fit: cover;
+        
     }
-    .presentation {
-        margin: 20px 10px 0 10px;
+    .tipstext {
+        padding: 20px;
+        p{
+            font-size: 1.5em;
+            padding: 45px;
+        }
     }
-    p.headertext {
-        font-size: 0.9em;
+    .tipsnumero {
+        p{
+            font-size:1.5em;
+        }
     }
-    .menu a {
-        font-size: 0.9em;
-    }
-    .lien {
+    .overlay {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
+        width: 90%;
+        height: 100%;
     }
-    .lien a {
-        font-size: 0.9em;
-    }
-    .videocinema {
-        width: 80%;
-        height: 70%;
-    }
-    .videocinema1 {
-        width: 80%;
-        height: 70%;
+    .tipsintrotext{
+        font-size: 1.7em;
+        .textmilieu{
+            width: 60%;
+        }
+       
     }
 }

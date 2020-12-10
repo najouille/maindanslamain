@@ -44,14 +44,14 @@
         font-size: 1.5em;
         color: black;
     }
-        .container-image {
+    .container-image {
         display: flex;
         justify-content: center;
         align-items: center;
         margin: auto;
     }
     
-        .image {
+    .image {
         width: 85%;
         height: 85%;
         padding-bottom: 10%;
@@ -63,9 +63,9 @@
         height: 15%;
         padding-top: 8%;
 
-       }
-
     }
+
+}
 
     @media all and (min-width:1200px){
 
@@ -120,6 +120,5 @@
             width: 3%;
             height: 3%;
             padding-top: 3%;
-    
-           }    
+        }
     }
