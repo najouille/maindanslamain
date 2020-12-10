@@ -115,9 +115,9 @@ footer a:link, footer a:active, footer a:visited {
 
 .social-network-icon img {                            /*filtre noir*/
     filter: grayscale(1) brightness(0);
-    max-width: 30px;
-    height: auto;
-    transition: 0.2s;
+    max-width: 30px 0px 30px;
+    height: 30px;
+    transition: 0.1s;
 }
 
 .social-network-icon img:hover {
@@ -224,6 +224,58 @@ footer a:link, footer a:active, footer a:visited {
 
 
 /*============== MOBILE VERSION ================*/
+
+
+
+
+@media screen and (max-width: 900px) {
+    
+    .footer-middle-section {
+        flex-direction: column;
+        height: 200px;   
+    }
+    
+    .navbar {
+        border-width: 2px 0px 0px 0px;
+    }
+    
+    .submit-button {
+        border-width: 0px 0px 0px 0px;
+    }
+    
+    .submit-button a, .submit-button a:visited, .submit-button a:link {
+        border-radius: 50px;
+    }
+
+    .social-network-icon {
+        max-width: 475px;
+    }
+
+    footer {
+        height: 52vh;
+        margin-top: 45.9vh;
+    }
+    
+    .footer-bottom-section {
+        height: 20%;
+    }    
+    
+    .social-network-icon img {                        
+        height: 50px;
+    }
+
+    .social-network-icon a {                     
+        margin: 20px 10px 20px 0px;
+    }
+
+    .footer-bottom-section {
+        padding: 1% 24%;
+        font-weight: 400;
+    }
+
+    .credit-margin {
+        margin-left: 0px;
+    }
 
 
 
