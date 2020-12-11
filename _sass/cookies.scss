@@ -1,10 +1,11 @@
 @media all and (min-width:400px) {
-
+    
     .backgroundcookies::before{
         background-color: rgba(255, 255, 255, 0.8);
         filter: blur(4px);
         position: relative;
         z-index: 1;
+        
     }
 
     .textecookies {
@@ -76,48 +77,47 @@
 
 
 }
-    @media all and (min-width:1200px) {
-     
-        .imagepopup{
-            margin: auto;
-            align-items: center;
-            width: 40%;
-            padding-top: 2%;
-
-        }
-
-
-        .textecookies{
-            font-size: 1.6em;
-            padding-top: 0%;
-            margin: auto;
-            padding-bottom: 3%;
-            width: 48%;
-
-        }
-
-        .cookiesaccepter {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: auto;
-            border-radius: 35px;
-            line-height: 2.5;
-            padding: 0 75px;
-            font-family: 'Montserrat', bold, sans-serif;
-            font-size: 1.8rem;    
-        }
-        h4 {
-            width: 30%;
-            height: 80%;
-            padding-top: 10%;
-            margin: auto;
-            border: 0;
-            line-height: 2.5;
-            padding: 0 20px;
-            font-family: 'Montserrat', bold, sans-serif;
-            text-align: center;
-            
-    }
+@media all and (min-width:1200px) {
+    
+    .imagepopup{
+        margin: auto;
+        align-items: center;
+        width: 40%;
+        padding-top: 2%;
 
     }
+
+
+    .textecookies{
+        font-size: 1.6em;
+        padding-top: 0%;
+        margin: auto;
+        padding-bottom: 3%;
+        width: 48%;
+
+    }
+
+    .cookiesaccepter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        border-radius: 35px;
+        line-height: 2.5;
+        padding: 0 75px;
+        font-family: 'Montserrat', bold, sans-serif;
+        font-size: 1.8rem;    
+    }
+    h4 {
+        width: 30%;
+        height: 80%;
+        padding-top: 10%;
+        margin: auto;
+        border: 0;
+        line-height: 2.5;
+        padding: 0 20px;
+        font-family: 'Montserrat', bold, sans-serif;
+        text-align: center;
+    }   
+}
+
