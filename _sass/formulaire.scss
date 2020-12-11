@@ -1,10 +1,10 @@
 .formulaire{
     background-color: #D1E5FF;
     border-radius: 20px 20px 20px 20px;
-    padding: 10px;
+    padding: 10px 10px;
     display: flex;
     flex-direction: column;
-    height: 500px;
+    height: 530px;
 
     input{
         margin: 10px;
@@ -14,6 +14,8 @@
     }
     .button-submit{
         display: flex;
+        margin: 10px 30px 10px 5px;
+        justify-content: space-between;
     }
     #button1{
         background-color: #E06615;
@@ -36,6 +38,7 @@
     #message{
         border: 1px solid #2074E0;
         border-radius: 15px;
+        padding: 5px 0px;
 
     }
 

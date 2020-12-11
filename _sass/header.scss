@@ -1,6 +1,5 @@
 .menu {
   background: #020304;
-  font-family: 'Montserrat', sans-serif;
   
 }
 
@@ -147,8 +146,8 @@ text-decoration: none;
 text-align: left;
 text-transform: uppercase;
 color: #ffffff;
-font-weight: 900;
-font-family: sans-serif;
+font-weight: 500;
+font-family: $font-family;
 display: block;
 padding: 10% 15%;
 }
@@ -158,8 +157,8 @@ padding: 10% 15%;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-  font-weight: 700;
-  font-family: sans-serif;
+  font-weight: 500;
+  font-family: $font-family;
   display: none;
   padding: 10% 15%;
   justify-content: space-between;
@@ -187,13 +186,13 @@ padding: 10% 15%;
 }
 
 .menunavbarlink::after {
-content: '';
-display: block;
-visibility: hidden;
-width: 100%;
-height: 2px;
-transform: scaleX(0);
-background: #e06615;
+  content: '';
+  display: block;
+  visibility: hidden;
+  width: 100%;
+  height: 2px;
+  transform: scaleX(0);
+  background: #e06615;
 }
 
 .menunavbarlink:hover:after {
