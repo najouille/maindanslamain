@@ -14,15 +14,15 @@
     }
 
     h1{
-        font-family: 'Montserrat', sans-serif, bold;
+        font-family: $font-family;
         text-align: center;
         margin: 0%;
-        font-size: 1.5em;
+        font-size: $font-size-h1;
         color: black;
     }
     
     .bienvenue{
-        font-family: 'Montserrat', sans-serif;
+        font-family: $font-family;
         text-align: center;
         padding-top: 0%;
         margin: 0%;
@@ -31,7 +31,7 @@
     }
     
     .p1{
-        font-family: 'Montserrat', sans-serif;
+        font-family: $font-family;
         text-align: center;
         padding-top: 4%;
         padding-left: 6%;
@@ -42,7 +42,7 @@
     }
     
     .p2{
-        font-family: 'Montserrat', sans-serif;
+        font-family: $font-family;
         margin: 5%;
         text-align: center;
         padding-left: 6%;

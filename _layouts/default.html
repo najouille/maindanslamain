@@ -9,23 +9,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
   </head>
   <body>
+    {% include commons/cookies/cookies.html %}
+
     {% include commons/header.html %}
 
     <div class="shapes-background">  
-      {% include commons/bienvenue/bienvenue.html %}
-      {% include agissez.html %}
+      {% include bienvenue.html %}
       {% include carrouseljs.html %}
     </div>
+
     <div class="shapes-tipsnoel">
     {% include tipsNoel/tipscomplet.html %}
     </div>
     
-    {% include commons/partenaire/partenaire.html %}
+    {% include partenaire.html %}
     {% include formulaire.html %}
 
     {% include commons/Footer/footer.html %}
     
-
+    <script src="assets/js/cookie.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
   
     <script>    
@@ -35,13 +37,12 @@
         nextButton: 'suivant',
         controlsPosition: 'bottom',
         navPosition: 'bottom',
-        controlsText: ['<i class="fas fa-arrow-left"></i>', '<i class="fas fa-arrow-right"></i>'],
-        
-        
+        controlsText: ['<i class="fas fa-arrow-left"></i>', '<i class="fas fa-arrow-right"></i>'],  
       });
     </script>
 
     <script src="assets/js/menu.js"></script>
+    <script src="assets/js/formulaire.js"></script>
     
     
   </body>
