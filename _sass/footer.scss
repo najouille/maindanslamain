@@ -19,7 +19,6 @@ footer a:link, footer a:active, footer a:visited {
 }
 
 .footer-top-section {
-    height: 84%;
     padding: 40px 0px 0px 0px;
 }
 
@@ -204,7 +203,7 @@ footer a:link, footer a:active, footer a:visited {
 .submit-button a, .submit-button a:visited, .submit-button a:link {
     background-color: #e06615;
     width: 350px;
-    height: 100px;  
+    height: 80px;  
     border: none;
     padding: 10px;
     text-align: center;
@@ -223,6 +222,16 @@ footer a:link, footer a:active, footer a:visited {
     background-color: #000000;
 }
 
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.50em;
+    margin-block-end: 0.50em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
 
 
 
@@ -232,6 +241,10 @@ footer a:link, footer a:active, footer a:visited {
 
 
 @media screen and (max-width: 900px) {
+
+    .footer-top-section {
+        height: 84%;
+    }
     
     .footer-middle-section {
         flex-direction: column;
@@ -294,6 +307,10 @@ footer a:link, footer a:active, footer a:visited {
 
 
     @media screen and (max-width: 500px) {
+
+        .footer-top-section {
+            height: 84%;
+        }
         
         .footer-middle-section {
             flex-direction: column;
