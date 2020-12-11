@@ -74,12 +74,15 @@
     }
 
        .flecheicone {
-        padding: 42%;
+        //padding: 42%;
         width: 20%;
         height: auto;
-        padding-top: 8%;
+      //  padding-top: 8%;
         filter: grayscale(0) brightness(1);
         transition: 0.3s;
+        //background-color: rebeccapurple;
+        display: flex;
+        margin: 0 auto;
     }
     
         .flecheicone:hover {
