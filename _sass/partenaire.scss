@@ -25,11 +25,8 @@
 
                     h3{
                         text-align: center;
-                    }
-                    
+                    }   
                 }
-
-
                 .imageptn{
                     width: 100px;
                     height: auto;
@@ -45,13 +42,13 @@
                         width: 80px;
                         height: 100px;
                     }
-                }
-
-                    
-                            
-                        
-                            
+                }            
             }
-        
+        .text-partenaire{
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            text-align: center;
+        }
     }
 }
