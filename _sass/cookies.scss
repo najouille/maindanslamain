@@ -1,4 +1,12 @@
 @media all and (min-width:400px) {
+    .backgroundcookies{
+        margin-top: 100px;
+        height: 610px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
     
     .backgroundcookies::before{
         background-color: rgba(255, 255, 255, 0.8);
@@ -12,8 +20,8 @@
         justify-content: space-around;
         width: 75%;
         margin: auto;
-        margin-bottom: 15%;
-        margin-top: 15%;
+        margin-bottom: 10%;
+        margin-top: 10%;
         align-items: center;
         font-family: 'Montserrat', sans-serif;
         text-align: center;
@@ -60,7 +68,7 @@
         transition: 0.2s;
     }
 
-    h4 {
+    h4 .cookie{
         text-align: center;
         border: 0;
         line-height: 2.5;
