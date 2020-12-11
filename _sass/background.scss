@@ -16,16 +16,18 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background: url(../images/svg/fil2.svg) 0% 1770px no-repeat,
-                url(../images/svg/fil4.svg) 0% 1140px no-repeat, 
-                url(../images/svg/fil3.svg) right 887px no-repeat,
-                url(../images/svg/fil1.svg) 160% 402px no-repeat,
+    background: url(../images/svg/fil2.svg) 0% 1622px no-repeat, 
+                url(../images/svg/fil4.svg) -53% 2294px no-repeat, 
+                url(../images/svg/fil3.svg) 117% 981px no-repeat, 
+                url(../images/svg/fil1.svg) 160% 402px no-repeat, 
                 url(../images/svg/shape5.svg) 0% -40px no-repeat, 
-                url(../images/svg/shape4.svg) 100% 700px no-repeat; 
+                url(../images/svg/shape4.svg) 100% 700px no-repeat,
+                url(../images/svg/shape2.svg) -5% 1316px no-repeat;
+            
                 
 
     background-color: #18447D ;
-    height: 180em;
+    height: 210em;
     width: 100%;
 }
 }
