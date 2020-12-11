@@ -101,6 +101,7 @@
     .tns-controls{
         display: flex;
         justify-content: space-around;
+        margin: 20px 0px 40px 0px;
         button{
             background-color:#E06615;
             border: none;
@@ -126,6 +127,7 @@
     .tns-nav{
         display: flex;
         justify-content: center;
+        margin: 20px 0px 40px 0px;
         .tns-nav-active{
             background-color:#E06615;
             border: none;
