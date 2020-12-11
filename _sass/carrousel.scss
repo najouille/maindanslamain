@@ -1,6 +1,7 @@
 //@media (min-width:400px) {
 
     .agissez{
+            margin-top: 20px;
             text-align: center;
             justify-content: center;
             align-items: center;
@@ -25,7 +26,7 @@
         .carrousel-asso{
             display: flex;
             flex-direction: column;
-            margin-top: 70px;
+            margin-top: 40px;
             flex: 2;
             height: auto;
 
@@ -34,25 +35,28 @@
         .icone-asso{
             display: flex;
             justify-content: center;
-            margin:30px;
+            margin: 30px 20px;
+            
             
                 img{
-                    width: 70%;
+                    width: 90%;
                 }
             
         }
 
         h3{
             margin-top: 40px;
-            font-size: 1.5em;
             text-align: center;
             font-family: $font-family;
+            font-size: $font-size-h3;
         }
 
         h4{
             text-align: center;
             font-size: 1.3em;
             font-family: $font-family;
+            font-size: $font-size-h4 ;
+            margin-top: 60px;
         }
 
         p{
@@ -61,6 +65,17 @@
             margin: 20px auto;
             font-size: 1.2em;
             font-family: $font-family;
+        }    
+
+        .actualites{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+            p{
+                margin: 10px;
+            }
         }
     }
 
@@ -93,6 +108,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        color: #fff;
         
         a{
             color: #fff;
