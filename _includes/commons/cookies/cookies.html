@@ -1,13 +1,32 @@
-<div class="backgroundcookies">
+        <div class="backgroundcookies" id="cookiesbox">
 
-    <div class="container-imagecookies"><img class="imagepopup" src="dessincookies.jpg"></div>
+            <div class="container-imagecookies"><img class="imagepopup" src="dessincookies.jpg"></div>
 
-    <div class="textecookies"><p>Nous utilisons des cookies pour nous assurer du bon fonctionnement de notre site, pour personnaliser notre contenu et nos publicités, 
-        pour proposer des fonctionnalités disponibles sur les réseaux sociaux et afin d’analyser notre trafic.</p></div>
+            <div class="textecookies"><p>Nous utilisons des cookies pour nous assurer du bon fonctionnement de notre site, pour personnaliser notre contenu et nos publicités, 
+                pour proposer des fonctionnalités disponibles sur les réseaux sociaux et afin d’analyser notre trafic.</p></div>
+        
+                <input class="cookiesaccepter" type="button" value="Accepter et fermer"></br>
 
-        <input class="cookiesaccepter" type="button" value="Accepter et fermer"></br>
+ 
+            <u>
+                <h4 id="quitter">Refuser et quitter le site</h4>
+            </a>
+            </u>
+                
+            
+            
+        </div>
+      <script>
+         const closeButton = document.querySelector('.cookiesaccepter');
+         const closeButton1 = document.querySelector('#quitter');
+        const cookie = document.querySelector('#cookiesbox');
 
-    <a href="#Quitter">
-        <h4>Refuser et quitter le site</h4>
-    </a>
-</div>
+        closeButton.addEventListener('click', function () {
+            cookie.style.display = "none";
+        });
+
+        closeButton1.addEventListener('click', function () {
+            cookie.style.display = "none";
+        });
+
+      </script>  
