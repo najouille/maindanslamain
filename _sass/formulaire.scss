@@ -1,21 +1,43 @@
 .formulaire{
     background-color: #D1E5FF;
+    border-radius: 20px 20px 20px 20px;
     padding: 10px;
     display: flex;
     flex-direction: column;
+    height: 500px;
 
     input{
-        margin: 20px;
+        margin: 10px;
         border-radius: 30px;
-        padding: 10px;
+        padding: 5px;
         border: 1px solid #2074E0;
     }
-
-    .taille-formulaire-mail{
-        width: 80%;    
+    .button-submit{
+        display: flex;
     }
-
-    .taille-formulaire-ville{
+    #button1{
+        background-color: #E06615;
+        border-radius: 20px;
+        padding: 10px;
+        color: #fff;
+        border: none;
+        width: 40%;
+        margin: auto;
+    }
+    #button2{
+        background-color: #E06615;
+        border-radius: 20px;
+        padding: 10px;
+        color: #fff;
+        border: none;
         width: 40%;
     }
+
+    #message{
+        border: 1px solid #2074E0;
+        border-radius: 15px;
+
+    }
+
+    
 }

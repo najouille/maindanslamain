@@ -1,26 +1,22 @@
+<div id="overlay1" class="overlay1">
+    <div class="popup">
+    <form class="formulaire">
 
-<form class="formulaire">
+        <input type="texte" placeholder="Prénom"/> 
+        <input class="taille-formulaire nom" type="texte"  placeholder="Nom"/> 
+        <input class="taille-formulaire mail"type="texte"  placeholder="Adresse Mail"/> 
+        <input class="taille-formulaire code" type="texte"  placeholder="Code Postal"/> 
+        <input class="taille-formulaire ville"type="texte"  placeholder="Ville"/> 
 
-    <div class="taille-formulaire-prenom" >
-        <input type="texte" maxlength="10" placeholder="Prénom"/> 
+        <textarea name="message" id="message" rows="10" cols="60" placeholder="Comment souhaitez-vous aidez ?"></textarea> 
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script> 
+        <div class="g-recaptcha" data-sitekey="la_clé_du_site"></div> 
+        <div class="button-submit">
+            <input type="submit" value="Annuler" id="button1">    
+            <input type="submit" value="Valider" id="button2">
+        </div>
+    </form>
     </div>
-    <div class="taille-formulaire-nom">
-        <input  type="texte" maxlength="10" placeholder="Nom"/> 
-    </div>
-    <div class="taille-formulaire-mail">
-        <input type="texte" maxlength="10" placeholder="Adresse Mail"/> 
-    </div>
-    <div class="taille-formulaire-code">
-        <input  type="texte" maxlength="10" placeholder="Code Postal"/> 
-    </div>
-    <div class="taille-formulaire-ville">
-        <input type="texte" maxlength="10" placeholder="Ville"/> 
-    </div>
-
-    <textarea name="message" id="message" rows="10" cols="60" placeholder="Comment souhaitez-vous aidez ?"></textarea> 
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script> 
-    <div class="g-recaptcha" data-sitekey="la_clé_du_site"></div> 
-    <input type="submit" value="Annuler" id="button">    <input type="submit" value="Valider" id="button">
-</form>
+</div>
 
     
