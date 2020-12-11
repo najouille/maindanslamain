@@ -3,9 +3,11 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-       // margin: 0% -2% 0% -2%;
         background-color: #f4f2f3;
-        background: url(../images/svg/Wave1.svg) 0% 0px no-repeat, url(../images/svg/Wave2.svg) right 270px no-repeat, url(../images/svg/Wave3.svg) left 900px no-repeat;
+        background: url(../images/svg/Wave1.svg) 0% 0px no-repeat, 
+                    url(../images/svg/Wave2.svg) right 270px no-repeat,
+                    url(../images/svg/shape5.svg) 0% 1560px no-repeat, 
+                    url(../images/svg/Wave3.svg) left 950px no-repeat;
         height: 100em;
         width: 100%;
     }
@@ -14,12 +16,16 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    //margin: 0% -2% 0% -2%;
-    background: url(../images/svg/shape5.svg) 0% 0px no-repeat, 
-                url(../images/svg/shape4.svg) 100% 700px no-repeat,
-                url(../images/svg/fil1.svg) 0% 0px no-repeat;
+    background: url(../images/svg/fil2.svg) 0% 1770px no-repeat,
+                url(../images/svg/fil4.svg) 0% 1140px no-repeat, 
+                url(../images/svg/fil3.svg) right 887px no-repeat,
+                url(../images/svg/fil1.svg) 160% 402px no-repeat,
+                url(../images/svg/shape5.svg) 0% -40px no-repeat, 
+                url(../images/svg/shape4.svg) 100% 700px no-repeat; 
+                
+
     background-color: #18447D ;
-    height: 140em;
+    height: 180em;
     width: 100%;
 }
 }

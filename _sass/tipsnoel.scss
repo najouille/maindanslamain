@@ -10,13 +10,15 @@
     }
 
     .container-imagenoel {
+        font-family: 'Montserrat', sans-serif;  
         display: flex;
         justify-content: center;
         align-items: center;
         width: 75%;
         height: 320px;
-        margin: 10px;
+        margin: 55px;
         position: relative;
+        
         
     }
     .imagenoel {
@@ -24,6 +26,8 @@
         height: 100%;
         border-radius: 15px;
         object-fit: cover;
+        filter: blur(1px);
+
         
     }
 
@@ -32,7 +36,9 @@
         margin: auto;
         img{
             width: 100%;
+            
         }
+        
     }
     .tipstext {
         display: flex;
@@ -49,14 +55,15 @@
     }
     .tipsnumero {
         color: #fff;
-        border: 1px solid #fff;
-        padding: 5px;
-        margin: 10px;
-        border-radius: 15px;
+        border: 2px solid; 
+        padding: 7px 15px;
+        margin: 10px 10px;
+        border-radius: 12px;
         top: 0;
         align-self: flex-end;
         position: absolute;
     }
+    
     .overlay {
         position: absolute;
         display: flex;
@@ -71,6 +78,7 @@
         background-color: rgba(24, 68, 125, 0);
     }
     .tipsintrotext{
+        font-family: 'Montserrat', sans-serif;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -78,22 +86,34 @@
         margin: auto;
         width: 85%;
         color: #fff;
+        
         .texthaut{
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 1.3;
             text-align: left;
             align-self: flex-start;
-            margin: 10px;
+            margin: 85px 35px 45px 0px;
             width: 80%;
         }
+       
         .textmilieu {
+            font-size: 20px;
+            letter-spacing: 0.3px;
+            line-height: 1.2;
             text-align: right;
             align-self: flex-end;
-            margin: 10px;
+            margin: 50px 0px 40px 0px;
             width: 80%;
         }
+      
         .textbas {
+            font-size: 20px;
+            letter-spacing: 0.3px;
+            line-height: 1.2;
             text-align: right;
             align-self: flex-end;
-            margin: 10px;
+            margin: 0px 0px 200px 0px;
             width: 80%;
         }
     }
@@ -146,6 +166,9 @@
             width: 60%;
         }
        
+    }
+    .p{
+        letter-spacing: 0.3px;
     }
 }
 }
