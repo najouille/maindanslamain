@@ -1,5 +1,5 @@
 
-@media (min-width:400px) {
+//@media (min-width:400px) {
     .wrapper{
         display: flex;
         justify-content: center;
@@ -118,6 +118,7 @@
         }
     }
 
+//}
 
 @media (min-width:1200px) {
     .wrapper{
@@ -130,7 +131,9 @@
         width: 35%;
         height: 500px;
         margin: 40px;
-       
+        .p{
+            letter-spacing: 0.3px;
+        }
     }
     .imagenoel {
         width: 100%;
@@ -167,8 +170,5 @@
         }
        
     }
-    .p{
-        letter-spacing: 0.3px;
-    }
-}
+    
 }

@@ -1,4 +1,4 @@
-@media (min-width: 400px) {
+//@media (min-width: 400px) {
     .shapes-background {
         display: flex;
         justify-content: space-between;
@@ -6,10 +6,11 @@
         background-color: #f4f2f3;
         background: url(../images/svg/Wave1.svg) 0% 0px no-repeat, 
                     url(../images/svg/Wave2.svg) right 270px no-repeat,
-                    url(../images/svg/shape5.svg) 0% 1560px no-repeat, 
+                    url(../images/svg/shape5.svg) 0% 173% no-repeat, 
                     url(../images/svg/Wave3.svg) -13% 717px no-repeat;
         height: 100em;
         width: 100%;
+        padding-bottom: 223px;
     }
 
 .shapes-tipsnoel {
@@ -25,14 +26,21 @@
                 url(../images/svg/fil2.svg) 0% 1622px no-repeat,
                 url(../images/svg/shape4.svg) 100% 700px no-repeat,
                 url(../images/svg/shape2.svg) -5% 1316px no-repeat,
-                url(../images/svg/shape1.svg) 0% 0px no-repeat,
                 url(../images/svg/shape3.svg) -1% 2652px no-repeat,
                 url(../images/svg/shape6.svg) right 1763px no-repeat;
-            
-                
-
     background-color: #18447D ;
     height: 210em;
     width: 100%;
+            
+    }
+
+    .shapes-partenaires {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: url(../images/svg/shape1.svg) 0% -85px no-repeat;
+    padding-top: 75px;
+
 }
-}
+    
+//}

@@ -1,4 +1,4 @@
-@media (min-width:400px) {
+//@media (min-width:400px) {
 
     .agissez{
             text-align: center;
@@ -6,6 +6,8 @@
             align-items: center;
             display: inline-block;
             margin: auto;
+            margin-top: 40px;
+            margin-bottom: 60px;
             font-family: $font-family;
             font-size: $font-size-h2;
     }
@@ -144,4 +146,4 @@
     }
     
 
-}
+//}
